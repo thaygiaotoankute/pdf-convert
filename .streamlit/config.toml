@@ -1,0 +1,36 @@
+[theme]
+# Chọn theme sáng/tối
+base="light"
+
+# Màu chính
+primaryColor="#FF4B4B" 
+
+# Màu nền cho sidebar
+secondaryBackgroundColor="#F0F2F6"
+
+# Màu nền chính
+backgroundColor="#FFFFFF"
+
+# Màu chữ
+textColor="#262730"
+
+# Phông chữ
+font="sans serif"
+
+[server]
+# Cho phép cross-origin
+enableCORS=false
+# Cho phép widget camera
+enableXsrfProtection=false
+# Tăng kích thước tối đa cho upload file (200MB)
+maxUploadSize=200
+
+[browser]
+# Mở trình duyệt khi khởi động
+serverAddress="localhost"
+serverPort=8501
+gatherUsageStats=false
+
+[deprecation]
+# Ẩn các cảnh báo về tính năng cũ
+showPyplotGlobalUse=false
